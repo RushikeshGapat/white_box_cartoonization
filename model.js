@@ -7,7 +7,7 @@ const APP = {
   status: document.getElementById('status'),
   download: document.getElementById('download'),
   $: n => document.getElementById(n),
-  path: 'web-uint8/model.json'
+  path: 'model.json'
 }
 
 const runModel = async () => {
